@@ -23,7 +23,7 @@ The **Grocery Store Management System** is a robust application designed to simp
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/puneethrajg/grocery-store-management-system.git
+   git clone https://github.com/madhusudhanreddy2003/Grocery-Store-Management-System.git
    ```
 
 2. **Navigate to the Project Directory**:
@@ -79,5 +79,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For inquiries or support, reach out to:  
-**Email**: [punithraj400@gmail.com](mailto:punithraj400@gmail.com)  
-**Name**: Puneeth Raj Gorigam
+**Email**: [maddoxer143@gmail.com](mailto:maddoxer143@gmail.com)  
+**Name**: Kethari Madhu Sudhan Reddy
