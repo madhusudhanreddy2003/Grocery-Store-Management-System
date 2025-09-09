@@ -1,0 +1,337 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-845-931
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-845-931
+INFO:werkzeug: * Detected change in 'c:\\Users\\prem sai\\OneDrive\\Desktop\\mini project new\\backend\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-845-931
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 11:56:58] "[35m[1mPOST /addInitialStock HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 11:58:10] "GET /getStock HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:02:12] "[33mGET /checkStock/2/20 HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-845-931
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:02:29] "[33mGET /checkStock/2/20 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\prem sai\\OneDrive\\Desktop\\mini project new\\backend\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-845-931
+INFO:werkzeug: * Detected change in 'c:\\Users\\prem sai\\OneDrive\\Desktop\\mini project new\\backend\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-845-931
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-845-931
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:05:09] "GET /checkStock/2/20 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:05:21] "GET /checkStock/1/100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:05:28] "GET /checkStock/1/70 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:05:31] "GET /checkStock/1/70 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:05:38] "GET /checkStock/1/50 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:07:23] "GET /getStock HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-845-931
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:08:29] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:08:40] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:08:40] "GET /getUOMs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:09:06] "OPTIONS /insertProduct HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:09:06] "[35m[1mPOST /insertProduct HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:09:06] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:09:12] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:09:12] "GET /getUOMs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:09:13] "[35m[1mGET /getUOMs HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:09:13] "[35m[1mGET /getProducts HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:09:19] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:09:19] "GET /getUOMs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:09:21] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:12:25] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-845-931
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:14:55] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:14:55] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:14:56] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:14:56] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:14:57] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:14:57] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:14:57] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:14:58] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:14:58] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:14:59] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:14:59] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:00] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:00] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:01] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:01] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:01] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:02] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:02] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:03] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:03] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:04] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:05] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:05] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:05] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:06] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:06] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:07] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:07] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:08] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:08] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:09] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:09] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:10] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:10] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:10] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:11] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:11] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:12] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:12] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:13] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:13] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:14] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:14] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:14] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:15] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:16] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:16] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:17] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:17] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:17] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:18] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:18] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:19] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:19] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:20] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:20] "GET /getProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:23] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:27] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:28] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:28] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:29] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:29] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:30] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:30] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:31] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:31] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:32] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:32] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:32] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:15:33] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:16:42] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:05] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:06] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:06] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:06] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:07] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:07] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:08] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:08] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:09] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:09] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:10] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:10] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:10] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:11] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:11] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:12] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:12] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:13] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:13] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:14] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:14] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:14] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:15] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:15] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:16] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:16] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:17] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:18] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:18] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:18] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:19] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:19] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:19] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:20] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:20] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:21] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:21] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:22] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:22] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:23] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:23] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:24] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:24] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:25] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:25] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:25] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:26] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:26] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:27] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:27] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:28] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:28] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:29] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:29] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:29] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:30] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:30] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:31] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:31] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:32] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:32] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:33] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:33] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:34] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:34] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:34] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:35] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:35] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:36] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:36] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:37] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:37] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:38] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:38] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:39] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:39] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:40] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:40] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:41] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:41] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:42] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:42] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:42] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:43] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:43] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:44] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:44] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:45] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:45] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:45] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:46] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:46] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:47] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:47] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:48] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:48] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:49] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:49] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:50] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:50] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:50] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:51] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:51] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:52] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:52] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:53] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:53] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:54] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:54] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:55] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:55] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:56] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:56] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:57] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:57] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:57] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:58] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:58] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:59] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:59] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:17:59] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:00] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:01] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:01] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:01] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:02] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:02] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:03] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:03] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:04] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:04] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:05] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:05] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:05] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:06] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:06] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:07] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:07] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:08] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:08] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:09] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:09] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:09] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:10] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:10] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:11] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:12] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:12] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:12] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:13] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:13] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:14] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:14] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:14] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:15] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:15] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:16] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:16] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:17] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:17] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:18] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:18] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:19] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:19] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:19] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:20] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:20] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:21] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:21] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:22] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:22] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:23] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:23] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:24] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:24] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:25] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:25] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:26] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:26] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:27] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:27] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:27] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:28] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2024 12:18:28] "GET /getAllOrders HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-845-931
+INFO:werkzeug: * Detected change in 'c:\\Users\\prem sai\\OneDrive\\Desktop\\mini project new\\backend\\orders_dao.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-845-931
+INFO:werkzeug: * Detected change in 'c:\\Users\\prem sai\\OneDrive\\Desktop\\mini project new\\backend\\orders_dao.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-845-931

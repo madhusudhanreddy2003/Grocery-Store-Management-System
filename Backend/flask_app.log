@@ -1,0 +1,129 @@
+2025-09-09 10:48:56,602 INFO: Database connection established.
+2025-09-09 10:48:56,764 INFO: Database connection established.
+2025-09-09 10:49:16,978 INFO: Database connection established.
+2025-09-09 10:49:16,978 INFO: Database connection established.
+2025-09-09 10:49:16,978 INFO: Database connection established.
+2025-09-09 10:49:16,980 ERROR: Error fetching orders: 'NoneType' object has no attribute 'cursor'
+2025-09-09 10:49:24,102 INFO: Database connection established.
+2025-09-09 10:49:24,103 ERROR: Error fetching orders: 'NoneType' object has no attribute 'cursor'
+2025-09-09 10:49:24,410 INFO: Database connection established.
+2025-09-09 10:49:24,412 INFO: Database connection established.
+2025-09-09 10:49:25,080 INFO: Database connection established.
+2025-09-09 10:49:25,080 INFO: Database connection established.
+2025-09-09 10:49:25,081 INFO: Database connection established.
+2025-09-09 10:49:25,083 ERROR: Error fetching orders: 'NoneType' object has no attribute 'cursor'
+2025-09-09 10:49:25,477 INFO: Database connection established.
+2025-09-09 10:49:25,478 ERROR: Error fetching orders: 'NoneType' object has no attribute 'cursor'
+2025-09-09 10:49:25,780 INFO: Database connection established.
+2025-09-09 10:49:25,783 INFO: Database connection established.
+2025-09-09 10:49:26,928 INFO: Database connection established.
+2025-09-09 10:49:26,929 INFO: Database connection established.
+2025-09-09 10:49:26,930 ERROR: Error fetching orders: 'NoneType' object has no attribute 'cursor'
+2025-09-09 10:49:26,930 INFO: Database connection established.
+2025-09-09 10:49:27,315 INFO: Database connection established.
+2025-09-09 10:49:27,317 ERROR: Error fetching orders: 'NoneType' object has no attribute 'cursor'
+2025-09-09 10:49:27,629 INFO: Database connection established.
+2025-09-09 10:49:27,632 INFO: Database connection established.
+2025-09-09 10:49:30,240 INFO: Database connection established.
+2025-09-09 10:49:30,241 INFO: Database connection established.
+2025-09-09 10:49:30,243 INFO: Database connection established.
+2025-09-09 10:49:30,243 ERROR: Error fetching orders: 'NoneType' object has no attribute 'cursor'
+2025-09-09 10:49:34,414 INFO: Database connection established.
+2025-09-09 10:49:34,717 INFO: Database connection established.
+2025-09-09 10:49:37,689 INFO: Database connection established.
+2025-09-09 10:52:55,735 INFO: Database connection established.
+2025-09-09 10:52:55,735 INFO: Database connection established.
+2025-09-09 10:52:55,743 INFO: Database connection closed.
+2025-09-09 10:52:55,753 INFO: Database connection closed.
+2025-09-09 10:53:21,345 INFO: Database connection established.
+2025-09-09 10:53:21,350 INFO: Database connection closed.
+2025-09-09 10:53:21,651 INFO: Database connection established.
+2025-09-09 10:53:21,653 INFO: Database connection established.
+2025-09-09 10:53:21,656 INFO: Database connection closed.
+2025-09-09 10:53:21,665 INFO: Database connection closed.
+2025-09-09 10:53:27,494 INFO: Database connection established.
+2025-09-09 10:53:27,499 INFO: Database connection closed.
+2025-09-09 10:54:10,312 INFO: Database connection established.
+2025-09-09 10:54:10,316 INFO: Database connection closed.
+2025-09-09 10:56:34,723 INFO: Database connection established.
+2025-09-09 10:56:34,724 INFO: Database connection established.
+2025-09-09 10:56:34,726 INFO: Database connection established.
+2025-09-09 10:56:34,732 INFO: Database connection closed.
+2025-09-09 10:56:34,749 INFO: Database connection closed.
+2025-09-09 10:56:34,764 INFO: Database connection closed.
+2025-09-09 10:56:52,554 INFO: Database connection established.
+2025-09-09 10:56:52,559 INFO: Database connection closed.
+2025-09-09 10:58:07,814 INFO: Database connection established.
+2025-09-09 10:58:07,815 INFO: Received payload for order: {'customer_name': 'Madhu Sudhan Reddy', 'grandTotal': 135, 'order_details': [{'product_id': '4', 'product_name': 'Dairy Milk', 'quantity': 1, 'price_per_unit': 45}, {'product_id': '2', 'product_name': 'Rice', 'quantity': 1, 'price_per_unit': 50}, {'product_id': '49', 'product_name': 'Limca', 'quantity': 1, 'price_per_unit': 40}]}
+2025-09-09 10:58:07,899 ERROR: Product ID 4 not found.
+2025-09-09 10:58:07,899 INFO: Database connection closed.
+2025-09-09 10:58:09,261 INFO: Database connection established.
+2025-09-09 10:58:09,262 INFO: Received payload for order: {'customer_name': 'Madhu Sudhan Reddy', 'grandTotal': 135, 'order_details': [{'product_id': '4', 'product_name': 'Dairy Milk', 'quantity': 1, 'price_per_unit': 45}, {'product_id': '2', 'product_name': 'Rice', 'quantity': 1, 'price_per_unit': 50}, {'product_id': '49', 'product_name': 'Limca', 'quantity': 1, 'price_per_unit': 40}]}
+2025-09-09 10:58:09,303 INFO: Database connection closed.
+2025-09-09 10:58:09,847 INFO: Database connection established.
+2025-09-09 10:58:09,862 INFO: Database connection closed.
+2025-09-09 11:02:08,553 INFO: Database connection established.
+2025-09-09 11:02:08,554 INFO: Database connection established.
+2025-09-09 11:02:08,556 INFO: Database connection established.
+2025-09-09 11:02:08,566 ERROR: Error fetching orders: 2013 (HY000): Lost connection to MySQL server during query
+2025-09-09 11:02:08,567 INFO: Database connection closed.
+2025-09-09 11:02:08,597 INFO: Database connection closed.
+2025-09-09 11:02:11,863 INFO: Database connection established.
+2025-09-09 11:03:01,582 INFO: Database connection established.
+2025-09-09 11:03:01,583 INFO: Database connection established.
+2025-09-09 11:03:01,583 INFO: Database connection established.
+2025-09-09 11:03:01,590 INFO: Database connection closed.
+2025-09-09 11:03:01,606 INFO: Database connection closed.
+2025-09-09 11:03:01,620 INFO: Database connection closed.
+2025-09-09 11:03:03,966 INFO: Database connection established.
+2025-09-09 11:03:03,971 INFO: Database connection closed.
+2025-09-09 11:03:21,681 INFO: Database connection established.
+2025-09-09 11:03:21,682 INFO: Received payload for order: {'customer_name': 'chinna', 'grandTotal': 50, 'order_details': [{'product_id': '2', 'product_name': 'Rice', 'quantity': 1, 'price_per_unit': 50}]}
+2025-09-09 11:03:21,703 INFO: Database connection closed.
+2025-09-09 11:03:21,928 INFO: Database connection established.
+2025-09-09 11:03:21,933 INFO: Database connection closed.
+2025-09-09 11:03:24,521 INFO: Database connection established.
+2025-09-09 11:03:24,522 INFO: Received payment payload: {'grandTotal': '50.00', 'order_id': '90', 'customer_name': 'chinna', 'payment_mode': 'cash', 'order_details': [{'product_id': '2', 'product_name': 'Rice', 'quantity': 1, 'price_per_unit': 50}]}
+2025-09-09 11:03:24,523 INFO: Processing payment for order ID: 90 with mode: cash
+2025-09-09 11:03:24,523 INFO: Order details: [{'product_id': '2', 'product_name': 'Rice', 'quantity': 1, 'price_per_unit': 50}]
+2025-09-09 11:03:24,535 INFO: Cash payment confirmed for order ID: 90, payment ID: 3904c4fe-5530-4a41-9bb6-80b759ae32cc
+2025-09-09 11:03:24,537 INFO: Database connection closed.
+2025-09-09 11:03:26,897 INFO: Database connection established.
+2025-09-09 11:03:26,897 INFO: Database connection established.
+2025-09-09 11:03:26,898 INFO: Database connection established.
+2025-09-09 11:03:26,926 INFO: Database connection closed.
+2025-09-09 11:03:26,935 INFO: Database connection closed.
+2025-09-09 11:04:33,498 INFO: Database connection established.
+2025-09-09 11:04:33,498 INFO: Database connection established.
+2025-09-09 11:04:33,501 INFO: Database connection closed.
+2025-09-09 11:04:33,517 INFO: Database connection closed.
+2025-09-09 11:04:42,976 INFO: Database connection established.
+2025-09-09 11:04:42,979 INFO: Database connection closed.
+2025-09-09 11:04:43,284 INFO: Database connection established.
+2025-09-09 11:04:43,287 INFO: Database connection closed.
+2025-09-09 11:04:48,090 INFO: Database connection established.
+2025-09-09 11:04:48,092 INFO: Database connection established.
+2025-09-09 11:04:48,093 INFO: Database connection established.
+2025-09-09 11:04:48,097 INFO: Database connection closed.
+2025-09-09 11:04:48,108 INFO: Database connection closed.
+2025-09-09 11:05:34,820 INFO: Database connection established.
+2025-09-09 11:05:34,826 INFO: Database connection closed.
+2025-09-09 11:05:43,384 INFO: Database connection established.
+2025-09-09 11:05:43,386 INFO: Received payload for order: {'customer_name': 'chinna', 'grandTotal': 50, 'order_details': [{'product_id': '2', 'product_name': 'Rice', 'quantity': 1, 'price_per_unit': 50}]}
+2025-09-09 11:05:43,407 INFO: Database connection closed.
+2025-09-09 11:05:43,774 INFO: Database connection established.
+2025-09-09 11:05:43,777 INFO: Database connection closed.
+2025-09-09 11:05:44,718 INFO: Database connection established.
+2025-09-09 11:05:44,719 INFO: Received payment payload: {'grandTotal': '50.00', 'order_id': '91', 'customer_name': 'chinna', 'payment_mode': 'cash', 'order_details': [{'product_id': '2', 'product_name': 'Rice', 'quantity': 1, 'price_per_unit': 50}]}
+2025-09-09 11:05:44,720 INFO: Processing payment for order ID: 91 with mode: cash
+2025-09-09 11:05:44,721 INFO: Order details: [{'product_id': '2', 'product_name': 'Rice', 'quantity': 1, 'price_per_unit': 50}]
+2025-09-09 11:05:44,730 INFO: Cash payment confirmed for order ID: 91, payment ID: 37e8eabc-303b-437a-aab4-1b1fe0f796ab
+2025-09-09 11:05:44,731 INFO: Database connection closed.
+2025-09-09 11:05:47,096 INFO: Database connection established.
+2025-09-09 11:05:47,097 INFO: Database connection established.
+2025-09-09 11:05:47,098 INFO: Database connection established.
+2025-09-09 11:05:47,101 INFO: Database connection closed.
+2025-09-09 11:05:47,112 INFO: Database connection closed.
+2025-09-09 11:05:47,120 INFO: Database connection closed.
+2025-09-09 11:05:53,603 INFO: Database connection established.
+2025-09-09 11:05:53,607 INFO: Database connection closed.

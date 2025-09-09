@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSMS - Manage Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,600,700">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css?v=1.0">
+    <link rel="stylesheet" href="css/sidebar-menu.css?v=1.0">
+    <link rel="stylesheet" href="css/custom.css?v=1.3.3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <style>
+        /* Table styling */
+        table th {
+            cursor: pointer;
+        }
+
+        table th i {
+            margin-left: 5px;
+            font-size: 14px;
+        }
+
+        table th.sorting i {
+            opacity: 0.5;
+        }
+
+        table th.sorted-asc i {
+            transform: rotate(180deg);
+            opacity: 1;
+        }
+
+        table th.sorted-desc i {
+            opacity: 1;
+        }
+
+        .sorting-arrows {
+            font-size: 14px;
+        }
+
+        /* Loading Spinner Styles */
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 8px solid rgba(0, 0, 0, 0.1);
+            border-left-color: #007bff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1040;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Loading Overlay Styles */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body class="tooltips">
+    <div class="container">
+        <!-- Header -->
+        <div class="header content rows-content-header">
+            <button class="button-menu-mobile show-sidebar">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav visible-lg visible-md limit-chars">
+                            <ul class="breadcrumb">
+                                <a href="index.html">
+                                    <i class="zmdi zmdi-view-dashboard zmdi-hc-fw" title="Dashboard"></i>
+                                </a>
+                                <a href="manage-product.html">
+                                    <i class="zmdi zmdi-assignment zmdi-hc-fw" title="Manage Products"></i>
+                                </a>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="right content-page">
+            <div class="body content rows scroll-y">
+                <div class="box-info full" id="taskFormContainer">
+                    <h2>Manage Products</h2>
+                    <div class="panel-body pt-0">
+                        <div class="row mb-4">
+                            <div class="col-sm-4">
+                                <input type="text" id="searchProducts" class="form-control" placeholder="Search by ID, Name, Stock...">
+                            </div>
+                            <div class="col-sm-8">
+                                <button type="button" class="btn btn-sm btn-primary pull-right" data-toggle="modal" data-target="#productModal" id="addProductBtn">
+                                    Add New Product
+                                </button>
+                            </div>
+                        </div>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th data-column-index="0" onclick="sortTable(0)">Product ID <i class="zmdi zmdi-swap-vertical sorting-arrows"></i></th>
+                                    <th data-column-index="1" onclick="sortTable(1)">Name <i class="zmdi zmdi-swap-vertical sorting-arrows"></i></th>
+                                    <th>Unit</th>
+                                    <th data-column-index="2" onclick="sortTable(2)">Price Per Unit <i class="zmdi zmdi-swap-vertical sorting-arrows"></i></th>
+                                    <th data-column-index="3" onclick="sortTable(3)">Stock <i class="zmdi zmdi-swap-vertical sorting-arrows"></i></th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="productstableBody" data-sort-order="asc">
+                                <!-- Products will be populated here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add / Update Product Modal -->
+        <div class="modal" id="productModal" role="dialog" data-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Add / Update Product</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form id="productForm">
+                            <input type="hidden" name="id" id="productId" value="0">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label>Product Name</label>
+                                        <input class="form-control" placeholder="Product Name" name="product_name" id="product_name" type="text" required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label>Unit of Measure</label>
+                                        <select name="uom_id" id="uom_id" class="form-control" required>
+                                            <option value="">Select Unit</option>
+                                            <!-- UOMs will be populated here -->
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label>Price Per Unit</label>
+                                        <input class="form-control" placeholder="Price Per Unit" name="price_per_unit" id="price_per_unit" type="number" step="0.01" required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label>Quantity In Stock</label>
+                                        <input class="form-control" placeholder="Quantity In Stock" name="quantity_in_stock" id="quantity_in_stock" type="number" min="0" required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label>Barcode (optional)</label>
+                                        <input class="form-control" placeholder="Barcode" name="barcode" id="barcode" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="saveProduct">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+            <div id="loadingSpinner" class="spinner"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/packages/jquery.min.js"></script>
+    <script src="js/packages/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="js/custom/config.js"></script>
+    <script src="js/custom/manage-product.js"></script>
+
+</body>
+
+</html>

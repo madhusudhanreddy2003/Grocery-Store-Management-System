@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSMS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,600,700">
+    <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="css/style.css?v=1.0">
+    <link media="all" type="text/css" rel="stylesheet" href="css/sidebar-menu.css?v=1.0">
+    <link media="all" type="text/css" rel="stylesheet" href="css/custom.css?v=1.3.3">
+    <style>
+        /* Custom CSS to reduce the search bar size */
+        #searchOrders {
+            width: 250px; /* Reduced size for the search bar */
+        }
+
+        .header {
+            background-color: #007bff; /* Blue background for the header */
+            padding: 20px; /* Padding for the header */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+            text-align: left; /* Align header to the left */
+            margin-bottom: 30px; /* Space below header */
+        }
+
+        /* Style for the table to remove odd square boxes */
+        table {
+            border-collapse: collapse; /* Remove gaps between table cells */
+        }
+
+        th, td {
+            border: 1px solid #ddd; /* Border around table cells */
+        }
+
+        th {
+            background-color: #f2f2f2; /* Light gray background for headers */
+        }
+    </style>
+</head>
+
+<body class="tooltips">
+    <div class="container">
+        <div class="header content rows-content-header">
+            <button class="button-menu-mobile show-sidebar">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav visible-lg visible-md limit-chars">
+                            <ul class="breadcrumb">
+                                <a href="index.html">
+                                    <i class="zmdi zmdi-view-dashboard zmdi-hc-fw" title="Orders"></i>
+                                </a>
+                                <a href="manage-product.html">
+                                    <i class="zmdi zmdi-assignment zmdi-hc-fw" title="Products"></i>
+                                </a>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right content-page">
+            <div class="body content rows scroll-y">
+                <form class="form-horizontal" action="">
+                    <div class="box-info full" id="taskFormContainer">
+                        <h2><strong>Grocery Store Management System</strong></h2> <!-- Bold title -->
+
+                        <div class="panel-body pt-0">
+                            <div class="row mb-4">
+                                <div class="col-sm-12">
+                                    <a href="order.html" class="btn btn-sm btn-primary pull-right ml-3">New Order</a>
+                                    <a href="manage-product.html" class="btn btn-sm btn-primary pull-right ml-3">Manage Products</a>
+
+                                    <!-- Reduced size search bar -->
+                                    <input type="text" id="searchOrders" class="form-control pull-right mr-3" placeholder="Search Orders...">
+                                </div>
+                            </div>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Order Number</th>
+                                        <th>Customer Name</th>
+                                        <th>Date</th>
+                                        <th>Time</th>
+                                        <th>Products</th> <!-- New Products column -->
+                                        <th>Total Cost</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="ordersTableBody">
+                                    <!-- Orders will be populated here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load jQuery first -->
+    <script src="js/packages/jquery.min.js"></script>
+
+    <!-- Load Bootstrap JS for tooltip support -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Load config.js before any other custom scripts -->
+    <script src="js/custom/config.js"></script>
+    <script src="js/custom/common.js"></script>
+    <script src="js/custom/dashboard.js"></script>
+
+    <!-- Add dynamic search functionality -->
+    <script>
+        // Function to filter orders based on the search query
+        function filterOrders(searchQuery) {
+            const tableRows = $('#ordersTableBody tr');  // Get all rows in the table
+            searchQuery = searchQuery.toLowerCase();  // Convert search query to lowercase
+
+            tableRows.each(function() {
+                const row = $(this);
+                // Get specific columns' text for more accurate searching
+                const orderNumber = row.find('td:nth-child(1)').text().toLowerCase();  // Order Number
+                const customerName = row.find('td:nth-child(2)').text().toLowerCase();  // Customer Name
+                const productNames = row.find('td:nth-child(5)').text().toLowerCase();  // Products
+
+                // Check if the search query is present in any of the relevant columns
+                if (orderNumber.includes(searchQuery) || customerName.includes(searchQuery) || productNames.includes(searchQuery)) {
+                    row.show();  // Show the row if it matches
+                } else {
+                    row.hide();  // Hide the row if it doesn't match
+                }
+            });
+        }
+
+        // Listen for input changes in the search bar
+        $('#searchOrders').on('input', function() {
+            const searchQuery = $(this).val();  // Get the value from the search bar
+            filterOrders(searchQuery);  // Filter the orders based on the query
+        });
+    </script>
+</body>
+
+</html>

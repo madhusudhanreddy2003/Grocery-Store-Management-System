@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GSMS - New Order</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sidebar-menu.css?v=1.0">
+    <link rel="stylesheet" href="css/custom.css?v=1.3.3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+
+    <style>
+        /* Your existing styles */
+        body {
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .header {
+            background-color: #007bff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        .header h2,
+        .header h5 {
+            color: #ffffff;
+            margin: 5px;
+        }
+
+        .body {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            max-width: 700px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .form-group {
+            margin-bottom: 40px;
+            margin-top: 70px;
+        }
+
+        .row.font-weight-bold {
+            background-color: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .text-right {
+            margin-top: 20px;
+        }
+
+        .btn {
+            margin-top: 15px;
+        }
+
+        #cameraContainer {
+            border: 2px solid #007bff;
+            border-radius: 8px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #startButton,
+        #stopButton {
+            margin: auto;
+        }
+
+        #stopButton {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="header content">
+            <h2>Grocery Store Management System</h2>
+            <h5>New Order</h5>
+        </div>
+
+        <div class="body content">
+            <form id="orderForm">
+                <div class="form-group">
+                    <label for="customerName" style="font-weight: bold;">Customer Name</label>
+                    <input name="customerName" id="customerName" type="text" class="form-control" placeholder="Enter customer name" required>
+                </div>
+
+                <div class="box-info mb-4">
+                    <h4>Order Details</h4>
+                    <div class="row font-weight-bold">
+                        <div class="col-sm-4">Product</div>
+                        <div class="col-sm-2">Price (Rs)</div>
+                        <div class="col-sm-2">Quantity</div>
+                        <div class="col-sm-3">Total (Rs)</div>
+                        <div class="col-sm-1"></div>
+                    </div>
+                    <div id="itemsInOrder"></div>
+                    <button type="button" class="btn btn-primary btn-sm mt-2" id="addMoreButton">Add Product</button>
+                </div>
+
+                <div class="text-right mb-4">
+                    <div class="form-group row">
+                        <label for="product_grand_total" class="col-sm-9 col-form-label text-right"><strong>Grand Total:</strong></label>
+                        <div class="col-sm-3">
+                            <input id="product_grand_total" name="product_grand_total" class="form-control text-right font-weight-bold" value="0.0" readonly> Rs
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-right mb-4">
+                    <button type="button" class="btn btn-success" id="saveOrder">Save Order</button>
+                </div>
+
+                <!-- Camera Section -->
+                <div id="cameraContainer">
+                    <video id="video" autoplay></video>
+                </div>
+                <div class="text-center">
+                    <button id="startButton" class="btn btn-primary">Start Scanning</button>
+                    <button id="stopButton" class="btn btn-danger">Stop Scanning</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/custom/config.js"></script>
+    <script src="js/custom/order.js"></script>
+    <script src="js/custom/barcodeScanner.js"></script>
+   
+</body>
+
+</html>
